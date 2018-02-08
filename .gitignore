@@ -1,0 +1,13 @@
+Come-What-May_unity/Library/
+Come-What-May_unity/Temp/
+*.csproj
+*.pidb
+*.unityproj
+*Thumbs.db
+*Thumbs.db.meta
+*.sln
+*.suo
+*.userprefs
+*.cache
+Come-What-May_unity/UpgradeLog.htm
+Come-What-May_unity/obj/Debug/
