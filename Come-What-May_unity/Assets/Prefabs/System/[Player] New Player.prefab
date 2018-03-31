@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4610481114584400}
   - component: {fileID: 114518984869249654}
-  - component: {fileID: 114032783680206472}
   m_Layer: 0
   m_Name: '[Player] New Player'
   m_TagString: Untagged
@@ -41,19 +40,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114032783680206472
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1521664740640604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 938da0b01ebb0bf4f9a267f43388f173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultShip: {fileID: 1990519293080864, guid: fb11513f19ee6a8419b1c01f5c858191,
-    type: 2}
 --- !u!114 &114518984869249654
 MonoBehaviour:
   m_ObjectHideFlags: 1
