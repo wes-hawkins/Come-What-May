@@ -34,7 +34,7 @@ public class TakeDamage : NetworkBehaviour {
 	} // End of Explode().
 	public void Local_Explode() {
 		Explode();
-		Cmd_Explode(NetworkPilot.LocalNetIdent);
+		//Cmd_Explode(NetworkPilot.LocalNetIdent);
 	} // End of Local_SetName().
 	[Command] private void Cmd_Explode(NetworkIdentity sender) {
 		Rpc_Explode(sender);

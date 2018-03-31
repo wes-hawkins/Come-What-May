@@ -89,7 +89,7 @@ public class Missile : NetworkBehaviour, IDeployable {
 	} // End of Launch().
 	public void Local_Launch(Entity _target) {
 		Launch(_target);
-		Cmd_Launch(NetworkPilot.LocalNetIdent, _target.gameObject);
+		//Cmd_Launch(NetworkPilot.LocalNetIdent, _target.gameObject);
 	} // End of Local_Launcher().
 	[Command] private void Cmd_Launch(NetworkIdentity sender, GameObject _target) {
 		Rpc_Launch(sender, _target);

@@ -59,7 +59,7 @@ public class Weapon : NetworkBehaviour {
 	public void Local_SetTrigger(bool newTrigger) {
 		if(trigger != newTrigger) {
 			SetTrigger(newTrigger);
-			Cmd_SetTrigger(NetworkPilot.LocalNetIdent, newTrigger);
+			//Cmd_SetTrigger(NetworkPilot.LocalNetIdent, newTrigger);
 		}
 	} // End of Local_SetTrigger().
 	[Command] private void Cmd_SetTrigger(NetworkIdentity sender, bool newTrigger) {

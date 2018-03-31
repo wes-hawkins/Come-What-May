@@ -30,8 +30,8 @@ public class Ship : Entity {
 
 		//PlayerController.Local.Local_AssignShip(this);
 		gameObject.AddComponent<LocalPlayerController>();
-		NetworkPilot.Local.Local_AssignShip(this);
-		NetworkPilot.Local.Cmd_AssumeAuthority(gameObject);
+		//NetworkPilot.Local.Local_AssignShip(this);
+		//NetworkPilot.Local.Cmd_AssumeAuthority(gameObject);
 
 	} // End of OnStartAuthority().
 

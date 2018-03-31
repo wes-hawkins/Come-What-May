@@ -45,6 +45,7 @@ public class DiageticUIElement : MonoBehaviour {
 	} // End of SetColor().
 
 	private void LateUpdate() {
+		/*
 		Vector3 screenPosition = Camera.main.WorldToScreenPoint(Position);
 		if(NetworkPilot.Local && NetworkPilot.Local.MyShip && (screenPosition.z > 0f)) {
 			MyRectTransform.localPosition = screenPosition;
@@ -60,6 +61,7 @@ public class DiageticUIElement : MonoBehaviour {
 			if(text)
 				text.enabled = false;
 		}
+		*/
 	} // End of Update().
 
 } // End of DiageticUIElement.
